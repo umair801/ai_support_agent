@@ -6,7 +6,7 @@ from typing import Optional
 import uvicorn
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel
 from dotenv import load_dotenv
 
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
